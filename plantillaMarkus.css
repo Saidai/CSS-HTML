@@ -1,0 +1,19 @@
+.saicabe1 {
+  text-align: center !important;
+    font: 30px Roboto;
+    color: black;
+    background-color: blue;
+}
+
+.saipost1 {
+    font: 12px Roboto;
+    color: white;
+}
+
+.saipost1 span {
+    color: red;
+}
+.saiplan1 div {
+  text-align: left;
+width: 500px;
+}
