@@ -1,19 +1,38 @@
 .saicabe1 {
-  text-align: center !important;
-    font: 30px Roboto;
-    color: black;
-    background-color: blue;
-}
-
-.saipost1 {
-    font: 12px Roboto;
+    text-align: center !important;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
     color: white;
 }
 
-.saipost1 span {
-    color: red;
+.saipost1 {
+  padding: 15px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13.5px;
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
+
+.saipost1 span {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+    color: #3366ff;
+}
+.saipost1 i {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+    color: #6D0E0E;
+}
+
 .saiplan1 div {
-  text-align: left;
-width: 500px;
+    text-align: justify;
+    width: 470px;
+}
+#saimarco2 {
+  background: #2C36B9;
+    height: 3px;
+    border-top: 1px solid #080808;
+    border-bottom: 1px solid #080808;
+    width: 500px;
+    margin: 0 auto;
 }
