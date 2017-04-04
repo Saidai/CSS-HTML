@@ -47,19 +47,26 @@
 #saihistoria1 {
     background-color: #1D1D1D;
     font-size: 10px;
+    float: left;
     color: white;
+    width: 335px;
+    height: 285px;
 }
 
 #saidesc1 {
-    background-color: #1D1D1D;
-    font-size: 10px;
-    color: white;
+   float: left;
+   background-color: #1D1D1D;
+   font-size: 10px;
+   color: white;
+   margin-left: 5px;
+   margin-bottom: 5px;
 }
 
 #saidatosexp1 {
     background-color: #1D1D1D;
     font-size: 10px;
     color: white;
+    height: 256px;
 }
 
 #saiinfoexp1 {
@@ -72,13 +79,19 @@
     background-color: #7A7A7A;
     color: black;
     outline: 1px solid black;
-    margin-left: 5px; margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    width: 325px;
 }
 
 #saititexp1 {
-    background-color: #7A7A7A;
-    color: black;
-    outline: 1px solid black;
+  float: left;
+  width: 150px;
+  background-color: #7A7A7A;
+  color: black;
+  outline: 1px solid black;
+  margin-left: 5px;
 }
 
 #saipb1 {
