@@ -1,9 +1,29 @@
+.efecto1 {
+    float: left;
+    position: relative;
+}
+
+#saiimgexp1 {
+    position: absolute;
+    top: 0;
+}
+
+#saiexpediente1:hover #saiimgexp1 {
+    position: absolute;
+    top: 0;
+    left: -275px;
+}
+
 #sainombre1 {
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
     color: #2331B2;
     text-shadow: 1px 1px 2px #EBEBEB;
 }
 
 #sainombre2 {
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
     line-height: 70%;
     position: absolute;
     top: 75%;
@@ -49,17 +69,20 @@
     font-size: 10px;
     float: left;
     color: white;
-    width: 335px;
+    width: 325px;
     height: 285px;
+    margin-right: 0px;
 }
 
 #saidesc1 {
-   float: left;
-   background-color: #1D1D1D;
-   font-size: 10px;
-   color: white;
-   margin-left: 5px;
-   margin-bottom: 5px;
+    float: left;
+    position: relative;
+    background-color: #1D1D1D;
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 155px;
 }
 
 #saidatosexp1 {
@@ -80,26 +103,28 @@
     color: black;
     outline: 1px solid black;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 0px;
     float: left;
-    width: 325px;
+    width: 315px;
 }
 
 #saititexp1 {
-  float: left;
-  width: 150px;
-  background-color: #7A7A7A;
-  color: black;
-  outline: 1px solid black;
-  margin-left: 5px;
+    width: 145px;
+    background-color: #7A7A7A;
+    color: black;
+    outline: 1px solid black;
+    margin-left: 5px;
+    float: left;
 }
 
 #saipb1 {
     background-color: #7A7A7A;
     color: black;
     outline: 1px solid black;
+    margin-bottom: 10px;
 }
 
 #saiicon1 {
     border: 5px solid #3A3E61;
+    margin: 0;
 }
