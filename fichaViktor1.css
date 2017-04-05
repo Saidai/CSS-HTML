@@ -17,8 +17,9 @@
 #sainombre1 {
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
-    color: #2331b2;
-    text-shadow: 1px 1px 2px #ebebeb
+    color: #961919;
+    text-shadow: 1px 1px 2px #ebebeb;
+    word-spacing: 32px;
 }
 
 #sainombre2 {
@@ -30,20 +31,22 @@
     bottom: 0;
     left: 0;
     right: 0;
-    color: #2331b2;
-    text-shadow: 1px 1px 2px #ebebeb
+    color: #961919;
+    text-shadow: 1px 1px 2px #ebebeb;
+    font-size: 44px;
 }
 
 #saidato1 {
-    background-color: #2b39de;
+    background-color: #961919;
     color: black;
     margin-top: 8px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    padding: 1.53px;
 }
 
 #saidato1:hover {
-    background-color: #3a3e61;
-    color: white
+    background-color: #613131;
+    color: white;
 }
 
 #saiexpediente1 {
@@ -89,13 +92,15 @@
     background-color: #1d1d1d;
     font-size: 10px;
     color: white;
-    height: 256px
+    height: 256px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #saiinfoexp1 {
     background-color: #7a7a7a;
     color: black;
-    outline: 1px solid black
+    outline: 1px solid black;
 }
 
 #saititexp2 {
@@ -121,10 +126,11 @@
     background-color: #7a7a7a;
     color: black;
     outline: 1px solid black;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    border-color: #613131;
 }
 
 #saiicon1 {
-    border: 5px solid #3a3e61;
-    margin: 0
+    border: 5px solid #613131;
+    margin: 0;
 }
