@@ -1,0 +1,90 @@
+.efecto1 {
+    float: left;
+    position: relative
+}
+
+#saiimgexp1 {
+    position: absolute;
+    top: 0
+}
+
+#saiexpediente1:hover #saiimgexp1 {
+    position: absolute;
+    top: 0;
+    left: -275px
+}
+
+#sainombre1 {
+}
+
+#sainombre2 {
+    line-height: 70%;
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#saidato1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 1.53px;
+}
+
+#saidato1:hover {
+}
+
+#saiexpediente1 {
+}
+
+#saiexpediente1 ::-webkit-scrollbar-thumb {
+}
+
+#saiexpediente1 ::-webkit-scrollbar {
+}
+
+#saihistoria1 {
+    float: left;
+    width: 325px;
+    height: 275px;
+    margin-right: 0;
+}
+
+#saidesc1 {
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 155px
+}
+
+#saidatosexp1 {
+    height: 256px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#saiinfoexp1 {
+}
+
+#saititexp2 {
+    margin-left: 5px;
+    margin-right: 0;
+    float: left;
+    width: 315px
+}
+
+#saititexp1 {
+    width: 145px;
+    margin-left: 5px;
+    float: left
+}
+
+#saipb1 {
+    margin-bottom: 10px;
+}
+
+#saiicon1 {
+    margin: 0;
+}
