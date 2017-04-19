@@ -8,6 +8,12 @@
     padding: 15px;
     width: 600px;
 }
+.saialbum .album:hover .content {
+  opacity: 1;
+}
+.saialbum .album:hover .titu {
+  opacity: 1;
+}
 
 .saialbum .titu {
     width: auto;
@@ -53,7 +59,7 @@
 
 .saialbum .imagen {
     width: 90px;
-    height: 594px;
+    height: 604px;
     border: 5px solid #efe6ff;
     margin: 5px;
 }
