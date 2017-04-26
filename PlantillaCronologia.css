@@ -40,8 +40,9 @@
 }
 
 .saicrono .saicontent p {
-  font-size: 12px;
+    font-size: 12px;
 }
+
 .base1:hover .saicontent {
     opacity: 1;
     transform: rotate(0deg);
@@ -70,6 +71,7 @@
 .saicrono .nombre {
     font-size: 36px;
 }
+
 .saicrono #marco1 {
     display: block;
     background-color: #000918;
@@ -84,5 +86,17 @@
 }
 
 .saicrono #marco1 a:hover {
+    color: #fff;
+}
+
+.saicrono #marco1 a:visited {
+    color: #fff;
+}
+
+.saicrono #marco1 a:active {
+    color: #fff;
+}
+
+.saicrono #marco1 a:link {
     color: #fff;
 }
