@@ -13,7 +13,7 @@
     margin: 64px;
 }
 
-.saicrono .title {
+.saicrono .saititle {
     text-transform: uppercase;
     height: 13px;
     width: 360px;
@@ -26,7 +26,7 @@
     transition: 1s;
 }
 
-.saicrono .content {
+.saicrono .saicontent {
     height: 276px;
     width: 360px;
     border: 3px solid white;
@@ -39,16 +39,16 @@
     transition: 1s;
 }
 
-.saicrono .content p {
+.saicrono .saicontent p {
   font-size: 12px;
 }
-.base1:hover .content {
+.base1:hover .saicontent {
     opacity: 1;
     transform: rotate(0deg);
     transition: 1s;
 }
 
-.base1:hover .title {
+.base1:hover .saititle {
     opacity: 1;
     transition: 1s;
 }
