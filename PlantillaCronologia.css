@@ -15,7 +15,7 @@
 
 .saicrono .saititle {
     text-transform: uppercase;
-    height: 13px;
+    height: 16px;
     width: 360px;
     border: 3px solid white;
     margin: .5%;
@@ -27,7 +27,7 @@
 }
 
 .saicrono .saicontent {
-    height: 276px;
+    height: 273px;
     width: 360px;
     border: 3px solid white;
     margin: 3px;
@@ -69,4 +69,20 @@
 
 .saicrono .nombre {
     font-size: 36px;
+}
+.saicrono #marco1 {
+    display: block;
+    background-color: #000918;
+    height: 6px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 6px;
+    color: #fff;
+}
+
+.saicrono #marco1 a:hover {
+    color: #fff;
 }
