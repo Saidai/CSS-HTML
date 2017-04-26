@@ -16,7 +16,7 @@
     padding-bottom: 44px;
 }
 
-.saicrono .title {
+.saicrono .textotitle {
     text-transform: uppercase;
     height: 2%;
     width: 90%;
@@ -29,7 +29,7 @@
     transition: 1s;
 }
 
-.saicrono .content {
+.saicrono .textocontent {
     height: 48%;
     width: 90%;
     border: 3px solid white;
@@ -43,16 +43,16 @@
     transition: 1s;
 }
 
-.saicrono .content p {
+.saicrono .textocontent p {
   font-size: 12px;
 }
-.base1:hover .content {
+.base1:hover .textocontent {
     opacity: 1;
     transform: rotate(0deg);
     transition: 1s;
 }
 
-.base1:hover .title {
+.base1:hover .textotitle {
     opacity: 1;
     transition: 1s;
 }
