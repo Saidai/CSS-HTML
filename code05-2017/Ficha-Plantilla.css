@@ -49,16 +49,60 @@
     margin-top: 10px;
     width: 570px;
     height: 480px;
+    transition: .8s;
+    opacity: 0;
+}
+
+.sBase1:hover .sBase2 {
+    border: solid 0px #fff;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 570px;
+    height: 480px;
+    transition: 1s;
+    opacity: 1;
 }
 
 .sFicha .sColumna1 {
-  width: 100px;
+    width: 160px;
     float: left;
     position: relative;
 }
 
 .sFicha .sColumna2 {
-  width: 100px;
+    width: 100px;
     float: left;
     position: relative;
+}
+
+.sFicha .sDato {
+    width: 150px;
+    text-transform: uppercase;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+
+.sFicha .sDatos {
+    width: 160px;
+    height: 180px;
+    overflow: auto;
+}
+
+
+.sFicha ::-webkit-scrollbar-thumb {
+    background-color: #7a7a7a;
+    border: 1px solid #1d1d1d;
+    height: auto;
+    width: 8px;
+}
+
+.sFicha ::-webkit-scrollbar {
+    background-color: #7a7a7a;
+    border: 4px solid #1d1d1d;
+    height: 5px;
+    width: 5px
 }
