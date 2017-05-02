@@ -1,0 +1,64 @@
+.sFicha .sBase1 {
+    background-color: #000830;
+    width: 570px;
+    height: 670px;
+    border: solid 5px #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.sFicha .sPortada {
+    width: 590px;
+    height: 690px;
+    border: solid 5px #fff;
+    float: left;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    transition: .8s;
+    overflow: hidden;
+}
+
+.sBase1:hover .sPortada {
+    width: 560px;
+    height: 170px;
+    top: 0;
+    left: 0;
+}
+
+.sFicha .sPortada img {
+    width: 590px;
+    height: 690px;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: .8s;
+}
+
+.sBase1:hover .sPortada img {
+    top: 0;
+    left: -15px;
+}
+
+.sFicha .sBase2 {
+    border: solid 0px #fff;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 570px;
+    height: 480px;
+}
+
+.sFicha .sColumna1 {
+  width: 100px;
+    float: left;
+    position: relative;
+}
+
+.sFicha .sColumna2 {
+  width: 100px;
+    float: left;
+    position: relative;
+}
