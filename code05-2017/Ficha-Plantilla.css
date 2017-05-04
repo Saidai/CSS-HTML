@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+.sFicha {
+    line-height: normal;
+    font-size: 12px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
 .sFicha .sBase1 {
     background-color: #000830;
     width: 570px;
@@ -34,6 +41,7 @@
     top: 0px;
     left: 0px;
     transition: .8s;
+    z-index: 0;
 }
 
 .sBase1:hover .sPortada img {
@@ -66,34 +74,36 @@
 }
 
 .sFicha .sColumna1 {
+    width: 400px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+}
+
+.sFicha .sColumna2 {
     width: 165px;
     float: left;
     position: relative;
 }
 
-.sFicha .sColumna2 {
-    width: 100px;
-    float: left;
-    position: relative;
-}
-
 .sFicha .sDato {
-  color: #fff;
-  width: 150px;
-  text-transform: uppercase;
-  height: auto;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: #141c42;
-  transition: .3s;
+    color: #fff;
+    width: 150px;
+    text-transform: uppercase;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #141c42;
+    transition: .3s;
 }
-.sFicha .sDato:last-child {
 
-  margin-bottom: 0px;
+.sFicha .sDato:last-child {
+    margin-bottom: 0px;
 }
+
 .sFicha .sDato:hover {
-  color: #191919;
-  background-color: #6e7dc3;
+    color: #191919;
+    background-color: #6e7dc3;
 }
 
 .sFicha .sDatos {
@@ -101,8 +111,6 @@
     height: 300px;
     overflow: auto;
 }
-
-
 
 .sFicha ::-webkit-scrollbar-thumb {
     background-color: #6e7dc3;
@@ -117,10 +125,41 @@
     height: 5px;
     width: 5px;
 }
-.sFicha .sMinip{
-  margin-bottom: 10px;
-  width: 160px;
-  border-radius: 150px;
-  border: 2.5px solid #6e7dc3;
-  overflow: hidden;
+
+.sFicha .sMinip {
+    margin-bottom: 10px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2.5px solid #6e7dc3;
+    overflow: hidden;
+}
+.sFicha .sButtons {
+  width: 100%;
+  display: flex;
+}
+.sFicha .sButton {
+  width: 25%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+.sFicha .sContent1 {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.sFicha .sContent2 {
+  position: absolute;
+  width: 380px;
+  height: 440px;
+  overflow: auto;
+  text-align: justify;
+  padding: 10px;
+  color: #fff;
+}
+.sFicha .sContent2 {
+  display:
 }

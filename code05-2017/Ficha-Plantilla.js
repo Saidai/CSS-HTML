@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $("#sFisicoB").click(function(){
+    $("#sFisico").fadeIn("slow");
+    $("#sPersonalidad").fadeOut("slow");
+    $("#sHistoria").fadeOut("slow");
+    $("#sExtras").fadeOut("slow");
+  });
+  $("#sPersonalidadB").click(function(){
+    $("#sFisico").fadeOut("slow");
+    $("#sPersonalidad").fadeIn("slow");
+    $("#sHistoria").fadeOut("slow");
+    $("#sExtras").fadeOut("slow");
+  });
+  $("#sHistoriaB").click(function(){
+    $("#sFisico").fadeOut("slow");
+    $("#sPersonalidad").fadeOut("slow");
+    $("#sHistoria").fadeIn("slow");
+    $("#sExtras").fadeOut("slow");
+  });
+  $("#sExtrasB").click(function(){
+    $("#sFisico").fadeOut("slow");
+    $("#sPersonalidad").fadeOut("slow");
+    $("#sHistoria").fadeOut("slow");
+    $("#sExtras").fadeIn("slow");
+  });
+});
