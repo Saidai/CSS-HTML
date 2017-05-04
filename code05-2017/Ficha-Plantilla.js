@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
   $("#sFisicoB").click(function(){
     $("#sFisico").fadeIn("slow");
     $("#sPersonalidad").fadeOut("slow");
@@ -23,4 +23,3 @@ $(document).ready(function(){
     $("#sHistoria").fadeOut("slow");
     $("#sExtras").fadeIn("slow");
   });
-});
