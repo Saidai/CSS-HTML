@@ -1,7 +1,7 @@
 .sFicha .sBase1 {
     background-color: #000830;
     width: 570px;
-    height: 670px;
+    height: 665px;
     border: solid 5px #fff;
     padding: 10px;
     overflow: hidden;
@@ -9,7 +9,7 @@
 
 .sFicha .sPortada {
     width: 590px;
-    height: 690px;
+    height: 685px;
     border: solid 5px #fff;
     float: left;
     position: relative;
@@ -60,13 +60,13 @@
     margin-bottom: 10px;
     margin-top: 10px;
     width: 570px;
-    height: 480px;
+    height: 475px;
     transition: 1s;
     opacity: 1;
 }
 
 .sFicha .sColumna1 {
-    width: 160px;
+    width: 165px;
     float: left;
     position: relative;
 }
@@ -78,31 +78,49 @@
 }
 
 .sFicha .sDato {
-    width: 150px;
-    text-transform: uppercase;
-    height: auto;
-    padding: 5px;
-    margin-bottom: 5px;
-    background-color: black;
+  color: #fff;
+  width: 150px;
+  text-transform: uppercase;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #141c42;
+  transition: .3s;
+}
+.sFicha .sDato:last-child {
+
+  margin-bottom: 0px;
+}
+.sFicha .sDato:hover {
+  color: #191919;
+  background-color: #6e7dc3;
 }
 
 .sFicha .sDatos {
-    width: 160px;
-    height: 180px;
+    width: 165px;
+    height: 300px;
     overflow: auto;
 }
 
 
+
 .sFicha ::-webkit-scrollbar-thumb {
-    background-color: #7a7a7a;
-    border: 1px solid #1d1d1d;
+    background-color: #6e7dc3;
+    border: 0px solid #3a50bb;
     height: auto;
     width: 8px;
 }
 
 .sFicha ::-webkit-scrollbar {
-    background-color: #7a7a7a;
-    border: 4px solid #1d1d1d;
+    background-color: #000830;
+    border: 4px solid #000830;
     height: 5px;
-    width: 5px
+    width: 5px;
+}
+.sFicha .sMinip{
+  margin-bottom: 10px;
+  width: 160px;
+  border-radius: 150px;
+  border: 2.5px solid #6e7dc3;
+  overflow: hidden;
 }
