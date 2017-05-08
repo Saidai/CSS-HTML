@@ -5,6 +5,12 @@
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
 
+.sFicha p {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
 .sFicha .sBase1 {
   background-color: #000830;
   width: 570px;
@@ -155,6 +161,11 @@
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
 
+.sFicha .sButton:hover {
+  color: #191919;
+  background-color: #6e7dc3;
+}
+
 .sFicha .sContent1 {
   position: relative;
   width: auto;
@@ -171,24 +182,78 @@
   color: #fff;
 }
 
-.sFicha .sContent2 img {
-  border: 5px solid #fff;
-  width: 365px;
-  height: 200px;
+.sFicha .sFisico {
+  position: relative;
+  width: 190px;
+  height: 130px;
+  overflow-y: scroll;
+  text-align: justify;
+  padding: 5px;
+  color: #fff;
+  float: left;
 }
 
-.sFicha #sFisico {
+.sFicha .sPersonalidad {
+  position: relative;
+  width: 190px;
+  height: 130px;
+  overflow-y: scroll;
+  text-align: justify;
+  padding: 5px;
+  color: #fff;
+  float: left;
+}
+
+.sFicha .sHistoria {
+  position: relative;
+  width: 390px;
+  height: 120px;
+  overflow-y: scroll;
+  text-align: justify;
+  padding: 5px;
+  color: #fff;
+  float: left;
+}
+
+.sFicha .sExtras {
+  position: relative;
+  width: 390px;
+  height: 120px;
+  overflow-y: scroll;
+  text-align: justify;
+  padding: 5px;
+  color: #fff;
+  float: left;
+}
+
+.sFicha .sTituloMini {
+  float: left;
+  width: 190px;
+  height: 15px;
+  background: #141c42;
+  color: #ffffff;
   display: block;
+  font-size: 12px;
+  letter-spacing: 5px;
+  outline: 5px solid #6e7dc3;
+  outline-offset: -5px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.sFicha #sPersonalidad {
-  display: none;
-}
-
-.sFicha #sHistoria {
-  display: none;
-}
-
-.sFicha #sExtras {
-  display: none;
+.sFicha .sTitulo {
+  float: left;
+  width: 390px;
+  height: 15px;
+  background: #141c42;
+  color: #ffffff;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 5px;
+  outline: 5px solid #6e7dc3;
+  outline-offset: -5px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
