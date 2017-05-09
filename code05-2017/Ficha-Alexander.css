@@ -1,273 +1,294 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 .sFicha {
-  line-height: normal;
-  font-size: 12px;
-  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-size: 12px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
 
 .sFicha p {
-  line-height: normal;
-  font-size: 12px;
-  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-size: 12px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
 
 .sFicha .sBase1 {
-  background-color: #1f0000;
-  width: 570px;
-  height: 665px;
-  border: solid 5px #fff;
-  padding: 10px;
-  overflow: hidden;
+    background-color: #1f0000;
+    width: 570px;
+    height: 665px;
+    border: solid 5px #fff;
+    padding: 10px;
+    overflow: hidden;
+    filter:  saturate(0) ;
+    transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
 }
-
+.sFicha .sBase1:hover {
+filter:  saturate(1) ;
+}
 .sFicha .sPortada {
-  width: 590px;
-  height: 685px;
-  border: solid 5px #fff;
-  float: left;
-  position: relative;
-  top: -15px;
-  left: -15px;
-  transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
-  overflow: hidden;
+    width: 590px;
+    height: 685px;
+    border: solid 5px #fff;
+    float: left;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
+    overflow: hidden;
+    filter:contrast(150%);
 }
 
 .sBase1:hover .sPortada {
-  width: 560px;
-  height: 170px;
-  top: 0;
-  left: 0;
+    width: 560px;
+    height: 170px;
+    top: 0;
+    left: 0;
+    filter: contrast(100%);
 }
 
 .sFicha .sPortada img {
-  width: 590px;
-  height: 685px;
-  float: left;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
-  z-index: 0;
-  float: left;
+    width: 590px;
+    height: 685px;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
+    z-index: 0;
+    float: left;
+    /* filter: saturate(0) contrast(100%); */
 }
 
 .sFicha .sPortada span {
-  top: -380px;
-  position: relative;
-  font-weight: bolder;
-  font-size: 55px;
-  transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
-  color: #861b1b;
-  text-shadow: 2px 2px #ce6060;
+    top: -380px;
+    position: relative;
+    font-weight: bolder;
+    font-size: 55px;
+    transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
+    color: #861b1b;
+    text-shadow: 2px 2px #ce6060, 0px 0px 30px rgb(255, 255, 255);
 }
 
 .sBase1:hover .sPortada img {
-  top: -80px;
-  left: -15px;
+    top: -80px;
+    left: -15px;
+    /* filter: saturate(1) contrast(130%); */
 }
 
 .sBase1:hover span {
-  top: -600px;
+    top: -600px;
 }
 
 .sFicha .sBase2 {
-  border: solid 0px #fff;
-  float: left;
-  position: relative;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 570px;
-  height: 480px;
-  transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
-  opacity: 0;
+    border: solid 0px #fff;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 570px;
+    height: 480px;
+    transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
+    opacity: 0;
 }
 
 .sBase1:hover .sBase2 {
-  border: solid 0px #fff;
-  float: left;
-  position: relative;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 570px;
-  height: 475px;
-  opacity: 1;
+    border: solid 0px #fff;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 570px;
+    height: 475px;
+    opacity: 1;
 }
 
 .sFicha .sColumna1 {
-  width: 400px;
-  float: left;
-  position: relative;
-  margin-right: 5px;
+    width: 400px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
 }
 
 .sFicha .sColumna2 {
-  width: 165px;
-  float: left;
-  position: relative;
+    width: 165px;
+    float: left;
+    position: relative;
 }
 
 .sFicha .sDato {
-  color: #fff;
-  width: 150px;
-  text-transform: uppercase;
-  height: auto;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: #440c0c;
-  transition: .3s;
+    color: #fff;
+    width: 150px;
+    text-transform: uppercase;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #440c0c;
+    transition: .3s;
 }
 
 .sFicha .sDato:last-child {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .sFicha .sDato:hover {
-  color: #191919;
-  background-color: #ce6060;
+    color: #191919;
+    background-color: #ce6060;
 }
 
 .sFicha .sDatos {
-  width: 165px;
-  height: 300px;
-  overflow: auto;
+    width: 165px;
+    height: 300px;
+    overflow: auto;
 }
 
 .sFicha ::-webkit-scrollbar-thumb {
-  background-color: #ce6060;
-  border: 0px solid #3a50bb;
-  height: auto;
-  width: 8px;
+    background-color: #ce6060;
+    border: 0px solid #3a50bb;
+    height: auto;
+    width: 8px;
 }
 
 .sFicha ::-webkit-scrollbar {
-  background-color: #1f0000;
-  border: 4px solid #1f0000;
-  height: 5px;
-  width: 5px;
+    background-color: #1f0000;
+    border: 4px solid #1f0000;
+    height: 5px;
+    width: 5px;
 }
 
 .sFicha .sMinip {
-  margin-top: 10px;
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  border: 2.5px solid #ce6060;
-  overflow: hidden;
-  opacity: .9;
-  transition: 1s;
+    margin-top: 10px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2.5px solid #ce6060;
+    overflow: hidden;
+    opacity: .9;
+    transition: 1s;
 }
 
 .sFicha .sMinip:hover {
-  transform: rotate(360deg);
-  opacity: 1;
+    transform: rotate(360deg);
+    opacity: 1;
 }
 
 .sFicha .sButtons {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
 }
 
 .sFicha .sButton {
-  width: 25%;
-  background-color: #141c42;
-  color: #fff;
-  border: none;
-  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+    width: 25%;
+    background-color: #141c42;
+    color: #fff;
+    border: none;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
 
 .sFicha .sButton:hover {
-  color: #191919;
-  background-color: #6e7dc3;
+    color: #191919;
+    background-color: #6e7dc3;
 }
 
 .sFicha .sContent1 {
-  position: relative;
-  width: auto;
-  height: auto;
+    position: relative;
+    width: auto;
+    height: auto;
 }
 
 .sFicha .sContent2 {
-  position: absolute;
-  width: 380px;
-  height: 440px;
-  overflow-y: scroll;
-  text-align: justify;
-  padding: 10px;
-  color: #fff;
+    position: absolute;
+    width: 380px;
+    height: 440px;
+    overflow-y: scroll;
+    text-align: justify;
+    padding: 10px;
+    color: #fff;
 }
 
 .sFicha .sFisico {
-  position: relative;
-  width: 190px;
-  height: 130px;
-  overflow-y: scroll;
-  text-align: right;
-  padding: 5px;
-  color: #fff;
-  float: left;
+    position: relative;
+    width: 190px;
+    height: 130px;
+    overflow-y: scroll;
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+    float: left;
 }
 
 .sFicha .sPersonalidad {
-  position: relative;
-  width: 190px;
-  height: 130px;
-  overflow-y: scroll;
-  text-align: left;
-  padding: 5px;
-  color: #fff;
-  float: left;
+    position: relative;
+    width: 190px;
+    height: 130px;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    float: left;
 }
 
 .sFicha .sHistoria {
-  position: relative;
-  width: 390px;
-  height: 120px;
-  overflow-y: scroll;
-  text-align: justify;
-  padding: 5px;
-  color: #fff;
-  float: left;
+    position: relative;
+    width: 390px;
+    height: 120px;
+    overflow-y: scroll;
+    text-align: justify;
+    padding: 5px;
+    color: #fff;
+    float: left;
 }
 
 .sFicha .sExtras {
-  position: relative;
-  width: 390px;
-  height: 120px;
-  overflow-y: scroll;
-  text-align: justify;
-  padding: 5px;
-  color: #fff;
-  float: left;
+    position: relative;
+    width: 390px;
+    height: 120px;
+    overflow-y: scroll;
+    text-align: justify;
+    padding: 5px;
+    color: #fff;
+    float: left;
 }
 
 .sFicha .sTituloMini {
-  float: left;
-  width: 190px;
-  height: 15px;
-  background: #440c0c;
-  color: #ffffff;
-  display: block;
-  font-size: 12px;
-  letter-spacing: 5px;
-  outline: 5px solid #ce6060;
-  outline-offset: -5px;
-  padding: 5px;
-  text-align: center;
-  text-transform: uppercase;
+    float: left;
+    width: 190px;
+    height: 15px;
+    background: #440c0c;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+    outline: 5px solid #ce6060;
+    outline-offset: -5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .sFicha .sTitulo {
-  float: left;
-  width: 390px;
-  height: 15px;
-  background: #440c0c;
-  color: #ffffff;
-  display: block;
-  font-size: 12px;
-  letter-spacing: 5px;
-  outline: 5px solid #ce6060;
-  outline-offset: -5px;
-  padding: 5px;
-  text-align: center;
-  text-transform: uppercase;
+    float: left;
+    width: 390px;
+    height: 15px;
+    background: #440c0c;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+    outline: 5px solid #ce6060;
+    outline-offset: -5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sFicha #sFirma {
+    color: #fff;
+    font-size: 9px;
+}
+
+.sFicha #sFirma a {
+    color: #fff;
+}
+
+.sFicha #sFirma a:hover {
+    color: #fff;
 }
