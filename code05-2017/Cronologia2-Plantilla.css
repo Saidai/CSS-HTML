@@ -1,0 +1,55 @@
+.sCrono2 {
+    line-height: normal;
+    font-size: 12px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sCrono2 p {
+    line-height: normal;
+    font-size: 12px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sCrono2 .sBase1 {
+    position: relative;
+    width: 590px;
+    height: 685px;
+    background-color: #fff;
+    border: 5px solid #ccc;
+}
+
+.sCrono2 .sBase2 {
+    position: relative;
+    width: 580px;
+    height: 330px;
+    background-color: #000;
+    border: 5px solid #444;
+}
+
+.sCrono2 .sCover {
+    position: absolute;
+    width: 580px;
+    height: 330px;
+    background-color: #ccc;
+    border: 5px solid #eee;
+    transition: 1s cubic-bezier(0.55, -0.17, 0.32, 1.03);
+    left: -5px;
+    top: -5;
+    opacity: 1;
+}
+
+.sCrono2 .sCover span {}
+
+.sCrono2 .sCover img {}
+
+.sBase2:hover .sCover {
+    left: -590px;
+    opacity: 0;
+}
+
+.sCrono2 .sSeparador {
+    display: block;
+    width: 590px;
+    height: 5px;
+    background-color: #ccc;
+}
