@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Didact+Gothic|Patrick+Hand|Roboto');
+.sPlantillaMarkus {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.sPlantillaMarkus .sPost {
+  width: 500px;
+  border-top: 3px solid #342984;
+  border-bottom: 3px solid #342984;
+}
+
+.sPlantillaMarkus .sTitulo {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  line-height: 20px;
+}
+
+.sPlantillaMarkus .sPost div {
+  padding: 15px;
+  text-align: justify;
+  width: 470px;
+  font-size: 13.5px;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.sPlantillaMarkus div span {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+  color: #3366ff;
+}
+
+.sPlantillaMarkus .sPost div i {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+  color: #ad2c2c;
+}
+
+.sPlantillaMarkus .sFirma {
+  color: #fff;
+  font-size: 5px;
+}
+
+.sPlantillaMarkus .sFirma a {
+  color: #fff;
+}
+
+.sPlantillaMarkus .sFirma a:hover {
+  color: #fff;
+}
