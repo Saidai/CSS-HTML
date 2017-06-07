@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.sFirmaAlexander {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sFirmaAlexander .sMarco1 {
+  width: 500px;
+  height: 6px;
+  background-color: #342984;
+}
+
+.sFirmaAlexander .sMarco1 span {
+  color: #fff;
+  font-size: 5px;
+}
+
+.sFirmaAlexander .sMarco1 span a {
+  color: #fff;
+}
+
+.sFirmaAlexander .sMarco1 span a:hover {
+  color: #fff;
+}
+
+.sFirmaAlexander .sBase1 {
+  width: 500px;
+  height: 288px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sFirmaAlexander .sBase1 div {
+  width: 450px;
+  height: 238px;
+  background-color: rgba(255, 255, 255, 0.2);
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  z-index: 1;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) .2s;
+  opacity: 0;
+}
+
+.sFirmaAlexander .sBase1:hover div {
+  opacity: 1;
+}
+
+.sFirmaAlexander .sBase1 img {
+  left: -10px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaAlexander .sBase1:hover img {
+  filter: blur(10px);
+}
+
+.sFirmaAlexander .sBase1 div span {
+  top: 30px;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 310px;
+  height: 27px;
+  font: 30px Roboto;
+  border-bottom: 3px solid #05002b;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+  font-weight: 600;
+  color: #312875;
+  position: relative;
+  margin-bottom: 55px;
+  z-index: 0;
+}
+
+.sFirmaAlexander .sBase1 div a {
+  display: block;
+  width: 180px;
+  height: 27px;
+  font-size: 21px;
+  border: 2px solid #05002b;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #312875;
+  float: left;
+  margin-top: 10px;
+  margin-right: -30px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  transition: .3s;
+  z-index: 1;
+}
+
+.sFirmaAlexander .sBase1 div a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #312875;
+}
+
+.sFirmaAlexander .sBase1 div rol {
+  margin-top: 25px;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  z-index: 0;
+}
+
+.sFirmaAlexander .sBase1 div rol hablo {
+  color: #3366ff;
+}
+
+.sFirmaAlexander .sBase1 div rol pienso {
+  color: #6D0E0E;
+}
+
+.sFirmaAlexander .sBase1 div rol narro {}
+
+.sFirmaAlexander .sBase1 .sBase2 {
+  width: 500px;
+  height: 288px;
+  position: absolute;
+}
