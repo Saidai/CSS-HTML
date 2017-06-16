@@ -96,3 +96,16 @@
   text-align: center;
   text-shadow: 1px 1px 2px #685fb1;
 }
+.sAlbum ::-webkit-scrollbar-thumb {
+    background-color: #685fb1;
+    border: 0px solid #3a50bb;
+    height: auto;
+    width: 8px;
+}
+
+.sAlbum ::-webkit-scrollbar {
+    background-color: #141c42;
+    border: 4px solid #141c42;
+    height: 5px;
+    width: 5px;
+}
