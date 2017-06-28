@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.sFirmaMarkus {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sFirmaMarkus .sMarco1 {
+  width: 500px;
+  height: 6px;
+  background-color: #342984;
+}
+
+.sFirmaMarkus .sMarco1 span {
+  color: #fff;
+  font-size: 5px;
+}
+
+.sFirmaMarkus .sMarco1 span a {
+  color: #fff;
+}
+
+.sFirmaMarkus .sMarco1 span a:hover {
+  color: #fff;
+}
+
+.sFirmaMarkus .sBase1 {
+  width: 500px;
+  height: 288px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sFirmaMarkus .sBase1 div {
+  width: 450px;
+  height: 238px;
+  background-color: rgba(255, 255, 255, 0.2);
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  z-index: 1;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) .2s;
+  opacity: 0;
+}
+
+.sFirmaMarkus .sBase1:hover div {
+  opacity: 1;
+}
+
+.sFirmaMarkus .sBase1 #sImg1 {
+  left: -520px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaMarkus .sBase1 #sImg2 {
+  left: 500px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaMarkus .sBase1 #sImg3 {
+  left: -10px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaMarkus .sBase1:hover img {
+  filter: blur(10px);
+}
+
+.sFirmaMarkus .sBase1 div span {
+  top: 30px;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 310px;
+  height: 27px;
+  font: 30px Roboto;
+  border-bottom: 3px solid #05002b;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+  font-weight: 600;
+  color: #312875;
+  position: relative;
+  margin-bottom: 55px;
+  z-index: 0;
+}
+
+.sFirmaMarkus .sBase1 div a {
+  display: block;
+  width: 180px;
+  height: 27px;
+  font-size: 21px;
+  border: 2px solid #05002b;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #312875;
+  float: left;
+  margin-top: 10px;
+  margin-right: -30px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  transition: .3s;
+  z-index: 1;
+}
+
+.sFirmaMarkus .sBase1 div a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #312875;
+}
+
+.sFirmaMarkus .sBase1 div rol {
+  margin-top: 25px;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  z-index: 0;
+}
+
+.sFirmaMarkus .sBase1 div rol hablo {
+  color: #3366ff;
+}
+
+.sFirmaMarkus .sBase1 div rol pienso {
+  color: #6D0E0E;
+}
+
+.sFirmaMarkus .sBase1 div rol narro {}
+
+.sFirmaMarkus .sBase1 .sBase2 {
+  width: 500px;
+  height: 288px;
+  position: absolute;
+}
+
+.sFirmaMarkus .sImgP {
+  position: relative !important;
+  width: 33.333333333333333% !important;
+  height: 100% !important;
+  float: left !important;
+  left: 0 !important;
+  top: 0 !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.sFirmaMarkus .sImgP1:hover #sImg1 {
+  top: -10px;
+}
+
+.sFirmaMarkus .sImgP2:hover #sImg2 {
+  top: -10px;
+}
+
+.sFirmaMarkus .sImgP3:hover #sImg3 {
+  top: -10px;
+}

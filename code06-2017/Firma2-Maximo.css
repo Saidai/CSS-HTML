@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.sFirmaMaximo {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sFirmaMaximo .sMarco1 {
+  width: 500px;
+  height: 6px;
+  background-color: #2a7528;
+}
+
+.sFirmaMaximo .sMarco1 span {
+  color: #fff;
+  font-size: 5px;
+}
+
+.sFirmaMaximo .sMarco1 span a {
+  color: #fff;
+}
+
+.sFirmaMaximo .sMarco1 span a:hover {
+  color: #fff;
+}
+
+.sFirmaMaximo .sBase1 {
+  width: 500px;
+  height: 288px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sFirmaMaximo .sBase1 div {
+  width: 450px;
+  height: 238px;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  z-index: 1;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) .2s;
+  opacity: 0;
+}
+
+.sFirmaMaximo .sBase1:hover div {
+  opacity: 1;
+}
+
+.sFirmaMaximo .sBase1 img {
+  left: -10px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaMaximo .sBase1:hover img {
+  filter: blur(10px);
+}
+
+.sFirmaMaximo .sBase1 div span {
+  top: 30px;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 310px;
+  height: 27px;
+  font: 30px Roboto;
+  border-bottom: 3px solid #8eda8c;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+  font-weight: 600;
+  color: #2a7528;
+  position: relative;
+  margin-bottom: 55px;
+  z-index: 0;
+}
+
+.sFirmaMaximo .sBase1 div a {
+  display: block;
+  width: 180px;
+  height: 27px;
+  font-size: 21px;
+  border: 2px solid #8eda8c;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2a7528;
+  float: left;
+  margin-top: 10px;
+  margin-right: -30px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  transition: .3s;
+  z-index: 1;
+}
+
+.sFirmaMaximo .sBase1 div a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #2a7528;
+}
+
+.sFirmaMaximo .sBase1 div rol {
+  margin-top: 25px;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  z-index: 0;
+}
+
+.sFirmaMaximo .sBase1 div rol hablo {
+  color: #379e37;
+}
+
+.sFirmaMaximo .sBase1 div rol pienso {
+  color: #5ac3c3;
+}
+
+.sFirmaMaximo .sBase1 div rol narro {}
+
+.sFirmaMaximo .sBase1 .sBase2 {
+  width: 500px;
+  height: 288px;
+  position: absolute;
+}
