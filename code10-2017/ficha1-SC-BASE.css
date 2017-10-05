@@ -169,22 +169,6 @@
   height: 200px;
 }
 
-.sFicha #sFisico {
-  display: block;
-}
-
-.sFicha #sPersonalidad {
-  display: none;
-}
-
-.sFicha #sHistoria {
-  display: none;
-}
-
-.sFicha #sExtras {
-  display: none;
-}
-
 .sFicha #sFirma {
   color: #fff;
   font-size: 9px;
@@ -196,4 +180,72 @@
 
 .sFicha #sFirma a:hover {
   color: #fff;
+}
+
+/*BOTONES FOCUS*/
+
+.sFicha .sButton:focus {
+  width: 25%;
+  background-color: #6e7dc3;
+  color: #191919;
+  border: none;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*BOTON FISICO*/
+
+.sFicha .sFisicoB {
+  width: 25%;
+  background-color: #6e7dc3;
+  color: #191919;
+  border: none;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sFicha .sFisico {
+  display: block;
+  transition: 1s;
+}
+
+.sFicha .sPersonalidad {
+  display: none;
+  transition: 1s;
+}
+
+.sFicha .sHistoria {
+  display: none;
+  transition: 1s;
+}
+
+.sFicha .sExtras {
+  display: none;
+  transition: 1s;
+}
+
+/*BOTON PERSONALIDAD*/
+
+.sPersonalidadB:focus .sFisico {
+  display: none;
+  transition: 1s;
+}
+.sPersonalidadB:focus .sFisicoB  {
+  width: 25%;
+  background-color: #141c42;
+  color: #fff;
+  border: none;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+.sPersonalidadB:focus .sPersonalidad {
+  display: block;
+  transition: 1s;
+}
+
+.sPersonalidadB:focus .sHistoria {
+  display: none;
+  transition: 1s;
+}
+
+.sPersonalidadB:focus .sExtras {
+  display: none;
+  transition: 1s;
 }
