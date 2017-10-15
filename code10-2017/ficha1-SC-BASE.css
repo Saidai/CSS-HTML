@@ -154,7 +154,7 @@
 }
 
 .sFicha .sContent2 {
-  background-color: #0008303;
+  background-color: #008303;
   position: absolute;
   width: 380px;
   height: 633px;
@@ -162,7 +162,7 @@
   text-align: justify;
   padding: 10px;
   color: #fff;
-  left: 0px;
+  transition: 1s;
 }
 
 .sFicha .sContent2 img {
@@ -184,6 +184,7 @@
   color: #fff;
 }
 
+
 /*BOTONES FOCUS*/
 
 .sFicha .sButton:focus {
@@ -193,88 +194,55 @@
   border: none;
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
 }
+
 .sFicha .sFisico {
-  display: none;
-  transition: 1s;
+  left: -400px;
+  opacity: 0;
 }
 
 .sFicha .sPersonalidad {
-  display: none;
-  transition: 1s;
+  left: -400px;
+  opacity: 0;
 }
 
 .sFicha .sHistoria {
-  display: none;
-  transition: 1s;
+  left: -400px;
+  opacity: 0;
 }
 
 .sFicha .sExtras {
-  display: none;
-  transition: 1s;
+  left: -400px;
+  opacity: 0;
 }
+
+
 /*BOTON FISICO*/
 
 .sFisicoB:focus .sFisico {
-  display: block;
+  opacity: 1;
+  left: 0px;
 }
 
-.sFisicoB:focus .sPersonalidad {
-  display: none;
-}
-
-.sFisicoB:focus .sHistoria {
-  display: none;
-}
-
-.sFisicoB:focus .sExtras {
-  display: none;
-}
 
 /*BOTON PERSONALIDAD*/
 
-.sPersonalidadB:focus .sFisico {
-  display: none;
-}
 .sPersonalidadB:focus .sPersonalidad {
-  display: block;
+  opacity: 1;
+  left: 0px;
 }
 
-.sPersonalidadB:focus .sHistoria {
-  display: none;
-}
 
-.sPersonalidadB:focus .sExtras {
-  display: none;
-}
 /*BOTON HISTORIA*/
 
-.sHistoriaB:focus .sFisico {
-  display: none;
-}
-.sHistoriaB:focus .sPersonalidad {
-  display: none;
-}
-
 .sHistoriaB:focus .sHistoria {
-  display: block;
+  opacity: 1;
+  left: 0px;
 }
 
-.sHistoriaB:focus .sExtras {
-  display: none;
-}
+
 /*BOTON PERSONALIDAD*/
 
-.sExtrasB:focus .sFisico {
-  display: none;
-}
-.sExtrasB:focus .sPersonalidad {
-  display: none;
-}
-
-.sExtrasB:focus .sHistoria {
-  display: none;
-}
-
 .sExtrasB:focus .sExtras {
-  display: block;
+  opacity: 1;
+  left: 0px;
 }
