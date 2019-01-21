@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.sFirmaBase {
+  line-height: normal;
+  font-size: 12px;
+  font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sFirmaBase .sMarco1 {
+  width: 500px;
+  height: 6px;
+  background-color: black;
+}
+
+.sFirmaBase .sMarco1 span {
+  color: #fff;
+  font-size: 5px;
+}
+
+.sFirmaBase .sMarco1 span a {
+  color: #fff;
+}
+
+.sFirmaBase .sMarco1 span a:hover {
+  color: #fff;
+}
+
+.sFirmaBase .sBase1 {
+  width: 500px;
+  height: 288px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sFirmaBase .sBase1 div {
+  width: 450px;
+  height: 238px;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  z-index: 1;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) .4s;
+  opacity: 0;
+}
+
+.sFirmaBase .sBase1:hover div {
+  opacity: 1;
+}
+
+.sFirmaBase .sBase1 img {
+  left: -10px;
+  top: -10px;
+  position: absolute;
+  z-index: 0;
+  transition: all .8s cubic-bezier(0.68, -0.1, 0.46, 1.1) 0s;
+  filter: blur(0px);
+}
+
+.sFirmaBase .sBase1:hover img {
+  filter: blur(10px);
+}
+
+.sFirmaBase .sBase1 div span {
+  top: 25px;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 230px;
+  height: 27px;
+  font: 30px Roboto;
+  border-bottom: 3px solid rgb(84, 31, 13);
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(183, 79, 46, 0.9);
+  position: relative;
+  margin-bottom: 49px;
+}
+
+.sFirmaBase .sBase1 div a {
+  display: block;
+  width: 209px;
+  height: 27px;
+  font-size: 21px;
+  border: 2px solid rgb(84, 31, 13);
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(183, 79, 46);
+  float: left;
+  margin: 6px;
+  transition: .3s;
+}
+
+.sFirmaBase .sBase1 div a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(183, 79, 46);
+}
+
+.sFirmaBase .sBase1 div rol {
+  font-size: 12px;
+  height: 96px;
+  width: 120px;
+  display: block;
+  top: 25px;
+  position: relative;
+  border-bottom: 1px solid #541f0d;
+  color: rgb(255, 255, 255);
+}
+
+.sFirmaBase .sBase1 div rol hablo {color: #fff;}
+
+.sFirmaBase .sBase1 div rol pienso {color: #fff;}
+
+.sFirmaBase .sBase1 div rol narro {color: #fff;}
+
+.sFirmaBase .sBase1 .sBase2 {
+  width: 500px;
+  height: 288px;
+  position: absolute;
+}
