@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 .sFicha {
-  color: #fff;
+  color: #000;
   line-height: normal;
   font-size: 14px;
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
@@ -8,7 +8,7 @@
 
 .sFicha .sBase1 {
   position: relative;
-  background-color: #000830;
+  background-color: #E5BF00;
   width: 570px;
   height: 670px;
   border: solid 5px #fff;
@@ -38,7 +38,7 @@
   height: 660px;
   top: 10px;
   right: 10px;
-  border: solid 5px #6e7dc3;
+  border: solid 5px #F9E060;
 }
 
 .sFicha .sPortada img {
@@ -59,7 +59,7 @@
 }
 
 .sFicha .sBase2 {
-  border: solid 0px #fff;
+  border: solid 0px #000;
   position: absolute;
   width: 400px;
   height: 670px;
@@ -69,7 +69,7 @@
 }
 
 .sBase1:hover .sBase2 {
-  border: solid 0px #fff;
+  border: solid 0px #000;
   opacity: 1;
   left: 10px;
 }
@@ -88,15 +88,15 @@
 }
 
 .sFicha ::-webkit-scrollbar-thumb {
-  background-color: #6e7dc3;
+  background-color: #F9E060;
   border: 0px solid #3a50bb;
   height: auto;
   width: 8px;
 }
 
 .sFicha ::-webkit-scrollbar {
-  background-color: #000830;
-  border: 4px solid #000830;
+  background-color: #E5BF00;
+  border: 4px solid #E5BF00;
   height: 5px;
   width: 5px;
 }
@@ -106,7 +106,7 @@
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  border: 2.5px solid #6e7dc3;
+  border: 2.5px solid #F9E060;
   overflow: hidden;
   opacity: .8;
   transition: 1s;
@@ -124,13 +124,13 @@
 
 .sFicha .sButton {
   width: 100px;
-  background-color: #141c42;
-  color: #fff;
+  background-color: #D0AD00;
+  color: #000;
   border: none;
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
   height: 30px;
   font-size: 16px;
-  border: solid 2px #6e7dc3;
+  border: solid 2px #EED86B;
   outline: none;
   transition: 0.3s;
 }
@@ -142,18 +142,18 @@
   z-index: 0;
   margin: 10px;
   overflow: hidden;
-  border: solid 5px #6e7dc3;
+  border: solid 5px #F9E060;
 }
 
 .sFicha .sContent2 {
-  background-color: #000830;
+    background-color: #E5BF00;
   position: absolute;
   width: 380px;
   height: 620px;
   overflow-y: scroll;
   text-align: justify;
   padding: 10px;
-  color: #fff;
+  color: #000;
   transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
   z-index: 1;
   top: 30px;
@@ -161,22 +161,22 @@
 }
 
 .sFicha .sContent2 img {
-  border: 5px solid #6e7dc3;
+  border: 5px solid #F9E060;
   width: 365px;
   height: auto;
 }
 
 .sFicha #sFirma {
-  color: #fff;
+  color: #000;
   font-size: 9px;
 }
 
 .sFicha #sFirma a {
-  color: #fff;
+  color: #000;
 }
 
 .sFicha #sFirma a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .sFicha .sNombre {
@@ -187,8 +187,8 @@
   font-weight: bolder;
   font-size: 55px;
   transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
-  color: #071765;
-  text-shadow: 2px 2px #8791c5, 0px 0px 30px rgb(255, 255, 255);
+  color: #E5BF00;
+  text-shadow: 2px 2px #F9E060, 0px 0px 30px rgb(0, 0, 0);
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -258,24 +258,24 @@ transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .45s;
 }
 
 .sFicha .sDegradado {
-  background: -moz-linear-gradient(left, rgba(0, 8, 48, 0) 0%, rgba(0, 8, 48, 0.83) 29%, rgba(0, 8, 48, 1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 8, 48, 0)), color-stop(29%, rgba(0, 8, 48, 0.83)), color-stop(100%, rgba(0, 8, 48, 1)));
-  background: -webkit-linear-gradient(left, rgba(0, 8, 48, 0) 0%, rgba(0, 8, 48, 0.83) 29%, rgba(0, 8, 48, 1) 100%);
-  background: -o-linear-gradient(left, rgba(0, 8, 48, 0) 0%, rgba(0, 8, 48, 0.83) 29%, rgba(0, 8, 48, 1) 100%);
-  background: -ms-linear-gradient(left, rgba(0, 8, 48, 0) 0%, rgba(0, 8, 48, 0.83) 29%, rgba(0, 8, 48, 1) 100%);
-  background: linear-gradient(to right, rgba(0, 8, 48, 0) 0%, rgba(0, 8, 48, 0.83) 29%, rgba(0, 8, 48, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000830', endColorstr='#000830', GradientType=1);
+  background: -moz-linear-gradient(left, rgba(229, 191, 0, 0) 0%, rgba(229, 191, 0, 0.83) 29%, rgba(229, 191, 0, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(229, 191, 0, 0)), color-stop(29%, rgba(229, 191, 0, 0.83)), color-stop(100%, rgba(229, 191, 0, 1)));
+  background: -webkit-linear-gradient(left, rgba(229, 191, 0, 0) 0%, rgba(229, 191, 0, 0.83) 29%, rgba(229, 191, 0, 1) 100%);
+  background: -o-linear-gradient(left, rgba(229, 191, 0, 0) 0%, rgba(229, 191, 0, 0.83) 29%, rgba(229, 191, 0, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(229, 191, 0, 0) 0%, rgba(229, 191, 0, 0.83) 29%, rgba(229, 191, 0, 1) 100%);
+  background: linear-gradient(to right, rgba(229, 191, 0, 0) 0%, rgba(229, 191, 0, 0.83) 29%, rgba(229, 191, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E5BF00', endColorstr='#E5BF00', GradientType=1);
 }
 
 /*BOTONES FOCUS*/
 
 .sFicha .sButton:focus {
   width: 25%;
-  background-color: #6E7DC1;
+  background-color: #EED86B;
   color: #191919;
   border: none;
   font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
-  border: solid 2px #141c42;
+  border: solid 2px #E5BF00;
 }
 
 .sFicha .sPestaña1 {
