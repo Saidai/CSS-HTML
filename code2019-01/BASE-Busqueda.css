@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.sBusqueda {
+  color: #fff;
+  line-height: normal;
+  font-size: 11px;
+  font-family: 'Orbitron', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.sBusqueda .sBase {
+  position: relative;
+  background-color: #000830;
+  width: 470px;
+  height: auto;
+  border: solid 5px #fff;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  overflow: hidden;
+  transition: all .7s cubic-bezier(0.68, -0.1, 0.46, 1.1) .1s;
+}
+
+.sBusqueda .sCuadro {
+  border: solid 2px #fff;
+  background-color: #000830;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  position: relative;
+  text-align: justify;
+  overflow-y: scroll;
+  width: 260px;
+  height: 150px;
+}
+
+.sBusqueda .sCuadro h1 {
+  font-family: "Great Vibes";
+  font-size: 39px;
+  line-height: 10pt;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.sBusqueda .sCuadroCenter {
+  border: solid 0px #fff;
+  width: 450px;
+  height: auto;
+  overflow-y: auto;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.sBusqueda .sCuadroCenter h1 {
+  text-align: center;
+  font-size: 39px;
+  line-height: 15pt;
+  margin-top: 10px;
+}
+
+.sBusqueda .sCuadroLeft {
+  float: left;
+  clear: left;
+}
+
+.sBusqueda .sCuadroRight {
+  float: right;
+}
+
+.sBusqueda .sFirma {
+  color: #fff;
+  font-size: 9px;
+  font-family: Dosis;
+}
+
+.sBusqueda .sFirma a {
+  color: #fff;
+}
+
+.sBusqueda .sFirma a:hover {
+  color: #fff;
+}
+
+.sBusqueda ::-webkit-scrollbar {
+  background-color: #000830;
+  height: 10px;
+  width: 5px;
+}
+
+.sBusqueda ::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  height: auto;
+  width: 2px;
+}
+
+.sBusqueda .sRombo {
+  padding: 5px;
+  position: relative;
+  width: 101px;
+  height: 101px;
+  border: solid 2px #fff;
+  background: #000830;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.sBusqueda .sRombo img {
+  position: absolute;
+  /* top: 0px; */
+  left: -25px;
+  /* right: 0px; */
+  bottom: -25px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sBusqueda .sRomboRight {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  float: right;
+}
+
+.sBusqueda .sRomboLeft {
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  float: left;
+  clear: left;
+}
