@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Didact+Gothic|Patrick+Hand|Roboto');
-.sPlantillaBASE {
+.sPlantillaSanji {
   line-height: normal;
   font-size: 12px;
   font-family: 'Didact Gothic', sans-serif;
 }
 
-.sPlantillaBASE .sPost {
+.sPlantillaSanji .sPost {
   width: 500px;
   border-top: 3px solid #C8CB11;
   border-bottom: 3px solid #C8CB11;
 }
 
-.sPlantillaBASE .sTitulo {
+.sPlantillaSanji .sTitulo {
   font-size: 40px;
   font-family: 'Amatic SC', cursive;
   color: white;
   line-height: 20px;
 }
 
-.sPlantillaBASE .sPost div {
+.sPlantillaSanji .sPost div {
   padding: 15px;
   text-align: justify;
   width: 470px;
@@ -27,27 +27,27 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
-.sPlantillaBASE div span {
+.sPlantillaSanji div span {
   font-family: 'Patrick Hand', cursive;
   font-size: 14px;
   color: #FFC900;
 }
 
-.sPlantillaBASE .sPost div i {
+.sPlantillaSanji .sPost div i {
   font-family: 'Patrick Hand', cursive;
   font-size: 14px;
   color: #51FFBB;
 }
 
-.sPlantillaBASE .sFirma {
+.sPlantillaSanji .sFirma {
   color: #fff;
   font-size: 5px;
 }
 
-.sPlantillaBASE .sFirma a {
+.sPlantillaSanji .sFirma a {
   color: #fff;
 }
 
-.sPlantillaBASE .sFirma a:hover {
+.sPlantillaSanji .sFirma a:hover {
   color: #fff;
 }
